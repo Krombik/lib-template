@@ -2,11 +2,11 @@
   "compilerOptions": {
     "outDir": "build",
     "module": "esnext",
-    "target": "es6",
+    "target": "es2020",
     "lib": ["dom", "esnext"],
     "moduleResolution": "node",
-    "jsx": "react",
     "sourceMap": true,
+    "jsx": "react-jsx",
     "declaration": true,
     "esModuleInterop": true,
     "noImplicitReturns": false,
@@ -20,10 +20,6 @@
     "stripInternal": true,
     "types": ["node"]
   },
-  "ts-node": {
-    "esm": true,
-    "files": true
-  },
-  "include": ["src", "scripts"],
+  "include": ["src", "tsup.config.ts"],
   "exclude": ["node_modules", "build", "example"]
 }
