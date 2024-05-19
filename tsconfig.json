@@ -18,6 +18,7 @@
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
     "stripInternal": true,
+    "strictBindCallApply": true,
     "types": ["node"]
   },
   "include": ["src", "tsup.config.ts"],
