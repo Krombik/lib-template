@@ -34,4 +34,4 @@ pnpm add -template-
 
 ## License
 
-MIT © [Krombik](https://github.com/Krombik)
+MIT © [Andrii Dubetskyi](https://github.com/Krombik)
